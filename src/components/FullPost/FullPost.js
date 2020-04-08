@@ -15,7 +15,6 @@ class FullPost extends Component {
                     .then(
                         res => {
                             this.setState({loadedPost: res.data});
-                            console.log('loadedPost', res)
                         }
                     )
             }
